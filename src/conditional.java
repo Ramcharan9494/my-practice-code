@@ -1,0 +1,19 @@
+import java.util.*;
+public class conditional {
+   public static void main(String[] args) {
+    int a,b;
+    Scanner sc =new Scanner(System.in);
+    System.out.println("give the value of a");
+    a=sc.nextInt();
+    System.out.println("give the value of b");
+    b=sc.nextInt();
+    if (a>b){
+        System.out.println("the value of a is big" + a );
+
+    }
+    else{
+        System.out.println("the value of b is big");
+    }
+    }
+   } 
+
